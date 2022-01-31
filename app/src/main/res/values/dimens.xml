@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="base_button">
+        <item name="android:shape">Rectangle</item>
+        <item name="android:width">50dp</item>
+        <item name="android:height">50dp</item>
+
+        <corners>
+            <item name="android:bottomLeftRadius">40dp</item>
+            <item name="android:bottomRightRadius">40dp</item>
+            <item name="android:topLeftRadius">40dp</item>
+            <item name="android:topRightRadius">40dp</item>
+        </corners>
+
+        <stroke>
+            <item name="android:width">1dp</item>
+            <item name="android:color">#2C80C3</item>
+        </stroke>
+    </dimen>
+
+</resources>

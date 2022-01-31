@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textHeadings">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <style name="baseButton">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/base_button</item>
+    </style>
+
+    <style name="plusButton" parent="baseButton">
+        <item name="android:src">@drawable/ic_baseline_add_24</item>
+    </style>
+
+    <style name="minusButton" parent="baseButton">
+        <item name="android:src">@drawable/minus</item>
+        <item name="android:resource">@drawable/minus</item>
+    </style>
+
+    <style name="offButton" parent="baseButton">>
+        <item name="android:src">@drawable/wifi_off</item>
+    </style>
+
+    <style name="imageStyle">
+        <item name="android:src">@drawable/signal_wifi_background</item>
+    </style>
+</resources>

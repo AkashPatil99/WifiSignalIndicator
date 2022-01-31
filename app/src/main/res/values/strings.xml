@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wifi Signal Indicator</string>
+    <string name="instructions_heading">Instructions to change the signal strength:</string>
+    <string name="instructions">
+            i)Tap + button to increase the signal strength\n
+            ii)Tap - button to decrease the signal strength\n
+            iii)Tap "Turn off" button to turn off indicator
+    </string>
+    <string name="theme_btn">Change Theme</string>
+</resources>
